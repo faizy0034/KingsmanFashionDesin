@@ -1,0 +1,95 @@
+.about-section {
+  background-color: #111;
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: gold;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.why-choose-us h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: gold;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.why-choose-us li::before {
+  margin-right: 0.5rem;
+}
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.why-choose-us svg {
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .why-choose-us li {
+    font-size: 0.95rem;
+  }
+}

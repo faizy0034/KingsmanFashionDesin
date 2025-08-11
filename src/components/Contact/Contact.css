@@ -1,0 +1,104 @@
+/* src/components/Contact/Contact.css */
+
+.contact {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #25d366;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn svg {
+  flex-shrink: 0;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5c;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: white;
+  color: #333;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.social-links a svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Instagram Hover */
+.social-links a.instagram:hover {
+  background: #e1306c;
+  color: white;
+  border-color: #e1306c;
+}
+
+/* Facebook Hover */
+.social-links a.facebook:hover {
+  background: #1877f2;
+  color: white;
+  border-color: #1877f2;
+}
+
+/* Twitter Hover */
+.social-links a.twitter:hover {
+  background: #000000; /* X logo is black */
+  color: white;
+  border-color: #000000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .contact h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact p {
+    font-size: 0.95rem;
+  }
+
+  .whatsapp-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}

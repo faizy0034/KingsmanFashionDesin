@@ -1,0 +1,50 @@
+.map-section {
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.map-description {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  color: #555;
+}
+
+.map-container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.map-info {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.directions-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: gold;
+  color: #111;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.directions-btn:hover {
+  background: #e0b800;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .map-section {
+    padding: 2rem 1rem;
+  }
+
+  .map-container iframe {
+    height: 300px;
+  }
+}
