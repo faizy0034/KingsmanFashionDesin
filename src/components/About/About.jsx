@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "../../assets/images/hero.webp"; // Replace with your image
+import aboutImg from "../../assets/images/Hero1.webp"; // Replace with your image
 
 // SVG icons (inline so no external library needed)
 const icons = {
